@@ -1,11 +1,10 @@
 {
   // Enable the ESlint flat config support
   "eslint.experimental.useFlatConfig": true,
-  "volar.inlayHints.eventArgumentInInlineHandlers": false,
-  
+
   // Disable the default formatter, use eslint instead
   "prettier.enable": false,
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": false,
 
   // Auto fix
   "editor.codeActionsOnSave": {

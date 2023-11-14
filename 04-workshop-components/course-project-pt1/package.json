@@ -1,5 +1,5 @@
 {
-  "name": "softuni-vue-js-starter",
+  "name": "vite-project",
   "type": "module",
   "version": "0.0.0",
   "private": true,
@@ -14,7 +14,7 @@
     "vue": "^3.3.4"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^1.0.0",
+    "@antfu/eslint-config": "^1.0.0-beta.25",
     "@vitejs/plugin-vue": "^4.2.3",
     "eslint": "^8.51.0",
     "vite": "^4.4.5",
