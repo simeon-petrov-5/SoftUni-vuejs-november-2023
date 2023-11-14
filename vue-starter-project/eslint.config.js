@@ -20,7 +20,6 @@ export default antfu({
   rules: {
     'curly': 'off',
     'no-console': 'off',
-    'style/semi': ['error', 'always'],
-    'ts/consistent-type-definitions': ['error', 'type'],
+    'style/semi': ['error', 'always']
   },
 });

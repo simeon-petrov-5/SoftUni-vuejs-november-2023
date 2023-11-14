@@ -1,130 +1,5 @@
-<script>
-export default {
-
-};
-</script>
-
 <template>
-  <header>
-    <nav>
-      <ul>
-        <li>
-          <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4Q0hUaUi7lLLC5UOslM9ul_B8NyXTKNn9BcBGtCXV&s"
-            alt="logo"
-          >
-        </li>
-      </ul>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Shop</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contacts</a></li>
-        <li><a href="#" role="button">Cart</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <div>
-      <ul role="list" class="categories">
-        <li>
-          <button class="primary">
-            Women's Dresses
-          </button>
-        </li>
-        <li>
-          <button class="secondary outline">
-            Women's Shoes
-          </button>
-        </li>
-        <li>
-          <button class="secondary outline">
-            Men's Shirts
-          </button>
-        </li>
-        <li>
-          <button class="secondary outline">
-            Men's Shoes
-          </button>
-        </li>
-        <li>
-          <button class="secondary outline">
-            Men's Watches
-          </button>
-        </li>
-        <li>
-          <button class="secondary outline">
-            Women's Watches
-          </button>
-        </li>
-        <li>
-          <button class="secondary outline">
-            Sunglasses
-          </button>
-        </li>
-      </ul>
-    </div>
-
-    <div class="products">
-      <article>
-        <img src="https://i.dummyjson.com/data/products/81/1.jpg" alt="img">
-        <h2>Round Silver Frame Sun Glasses</h2>
-        <p>
-          A pair of sunglasses can protect your eyes from being hurt. For car driving, vacation travel, outdoor
-          activities, social gatherings,
-        </p>
-        <p><b>Price</b>: 55$</p>
-        <footer>
-          <button class="secondary outline">
-            Add to cart 🛒
-          </button>
-        </footer>
-      </article>
-      <article>
-        <img src="https://i.dummyjson.com/data/products/81/1.jpg" alt="img">
-        <h2>Round Silver Frame Sun Glasses</h2>
-        <p>
-          A pair of sunglasses can protect your eyes from being hurt. For car driving, vacation travel, outdoor
-          activities, social gatherings,
-        </p>
-        <p><b>Price</b>: 55$</p>
-        <footer>
-          <button class="secondary outline">
-            Add to cart 🛒
-          </button>
-        </footer>
-      </article>
-      <article>
-        <img src="https://i.dummyjson.com/data/products/81/1.jpg" alt="img">
-        <h2>Round Silver Frame Sun Glasses</h2>
-        <p>
-          A pair of sunglasses can protect your eyes from being hurt. For car driving, vacation travel, outdoor
-          activities, social gatherings,
-        </p>
-        <p><b>Price</b>: 55$</p>
-        <footer>
-          <button class="secondary outline">
-            Add to cart 🛒
-          </button>
-        </footer>
-      </article>
-      <article>
-        <img src="https://i.dummyjson.com/data/products/81/1.jpg" alt="img">
-        <h2>Round Silver Frame Sun Glasses</h2>
-        <p>
-          A pair of sunglasses can protect your eyes from being hurt. For car driving, vacation travel, outdoor
-          activities, social gatherings,
-        </p>
-        <p><b>Price</b>: 55$</p>
-        <footer>
-          <button class="secondary outline">
-            Add to cart 🛒
-          </button>
-        </footer>
-      </article>
-    </div>
-  </main>
-  <footer class="footer">
+      <footer class="footer">
     <div class="columns">
       <section>
         <div class="section-header">
@@ -233,30 +108,13 @@ export default {
   </footer>
 </template>
 
-<style scoped>
-nav {
-  padding: 0.25rem 1rem;
-}
+<script>
+    export default {
+        
+    }
+</script>
 
-nav img {
-  height: 2rem;
-}
-
-main {
-  padding: 1rem 2rem;
-}
-
-.categories {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-}
-
-.products {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 1rem;
-}
+<style  scoped>
 
 .footer {
   padding: 3em;

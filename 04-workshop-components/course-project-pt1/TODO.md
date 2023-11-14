@@ -1,0 +1,9 @@
+- [x] Think about file structure
+- [x] Strip down structure to components
+- [x] Create dummy pages for the navigation
+- [x] Simulate the navigation bar
+  - [x] Try and use <component /> tag
+- [x] Add filtering to shop page
+  - [x] Initial state
+  - [x] Select
+  - [x] Deselect
