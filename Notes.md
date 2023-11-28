@@ -12,3 +12,6 @@
 
 **VueUse** - Collection of Vue Composition Utilities
 - https://vueuse.org/
+
+**CSS Loaders**
+- https://cssloaders.github.io/
